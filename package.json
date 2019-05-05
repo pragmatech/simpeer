@@ -1,0 +1,21 @@
+{
+  "name": "parcel-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "simple-peer": "9.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.6",
+    "@types/react-dom": "16.8.2",
+    "@types/simple-peer": "6.1.5",
+    "react-scripts": "2.1.5"
+  }
+}
